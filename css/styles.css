@@ -1,13 +1,27 @@
 .body {
   background-color: FFFFFF;
   color: #757575;
-}
-.logo-web {
+
+  .logo-web {
   color: 000000;
 }
 .logo-studio {
   color: 2196f3;
 }
+
+.list {
+    list-style: none;
+}
+/* site nav */
+.site-nav {
+color: 2196F3;}
+
+.site-nav .link {
+color:#212121 ;
+}
+
+
+
 
 /* цвет текста логотипа color:000000 */
 
