@@ -2,40 +2,62 @@
   --basic-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --basic-bg-color: #ffffff;
 }
 
 .body {
-  background-color: FFFFFF;
-  color: #757575;
+  background-color: var(--basic-bg-color);
+  color: var (--basic-text-color);
 }
-
+/* логотип */
 .logo-web {
-  color: 000000;
+  color: var(--accent-color);
 }
 .logo-studio {
-  color: #2196f3;
+  color: #000000;
 }
-
+/* обнуляція списку */
 .list {
   list-style: none;
 }
-/* site nav */
-
+/* навигація */
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
 }
 
+.auth-nav .link {
+  color: var(--title-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: #2196f3;
+}
+
+/* герой */
 .hero-title {
+  color: #ffffff;
 }
-
-.section-title-feature {
-
-
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* заголовки*/
 .section-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
-/* цвет текста логотипа color:000000 */
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* функції */
+.feature-list .title {
+  color: var(--title-text-color);
+}
 
 /* цвет основного текста color: #757575*/
 
