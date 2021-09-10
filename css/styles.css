@@ -28,6 +28,9 @@
 .site-nav .link:focus {
   color: #2196f3;
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 
 .auth-nav .link {
   color: var(--title-text-color);
@@ -38,6 +41,10 @@
 }
 
 /* герой */
+.hero {
+  background-color: #2f303a;
+}
+
 .hero-title {
   color: #ffffff;
 }
@@ -57,6 +64,19 @@
 /* функції */
 .feature-list .title {
   color: var(--title-text-color);
+}
+
+/* футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-address {
+  color: #ffffff;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* цвет основного текста color: #757575*/
