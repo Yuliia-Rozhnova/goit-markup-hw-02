@@ -3,6 +3,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --basic-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --bg-color: #2f303a;
+  --text-white-color: #ffffff;
 }
 
 .body {
@@ -48,12 +51,14 @@
 .hero-title {
   color: #ffffff;
 }
-.hero-button {
-  background-color: #2196f3;
-  color: #ffffff;
-}
+
 /* заголовки*/
 .section-title {
+  color: var(--title-text-color);
+}
+
+/* функції */
+.feature-list .title {
   color: var(--title-text-color);
 }
 
@@ -61,9 +66,9 @@
   color: var(--title-text-color);
 }
 
-/* функції */
-.feature-list .title {
-  color: var(--title-text-color);
+/* команда */
+.section-tam {
+  background-color: #f5f4fa;
 }
 
 /* футер */
@@ -77,6 +82,22 @@
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* кнопки */
+
+.button {
+  background-color: var (--secondary-bg-color);
+  color: var(--title-text-color);
+}
+
+.button .primary {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+}
+.button .secondary {
+  background-color: var (--secondary-bg-color);
+  color: var(--title-text-color);
 }
 
 /* цвет основного текста color: #757575*/
