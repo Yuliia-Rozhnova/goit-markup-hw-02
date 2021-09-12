@@ -11,13 +11,24 @@
 .body {
   background-color: var(--basic-bg-color);
   color: var (--basic-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
+
 /* логотип */
 .logo-web {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-studio {
   color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* обнуляція списку */
 .list {
@@ -26,6 +37,10 @@
 /* навигація */
 .site-nav .link {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -37,7 +52,12 @@
 
 .auth-nav .link {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: #2196f3;
@@ -50,25 +70,56 @@
 
 .hero-title {
   color: #ffffff;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* заголовки*/
 .section-title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* функції */
 .feature-list .title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature {
+  font-family: Roboto;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .team-list .title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* команда */
-.section-tam {
+.section-team {
   background-color: #f5f4fa;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* футер */
@@ -78,10 +129,16 @@
 
 .footer-address {
   color: #ffffff;
+  font-family: Roboto;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .footer-address:hover,
 .footer-address:focus {
@@ -109,10 +166,38 @@
 .button-primary {
   background-color: #2196f3;
   color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button-secondary {
   background-color: var (--secondary-bg-color);
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.images {
+  color: var(--basic-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.images-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 /* цвет основного текста color: #757575*/
