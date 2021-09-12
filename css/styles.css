@@ -20,6 +20,7 @@
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: bold;
+  font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
@@ -27,6 +28,7 @@
   color: #000000;
   font-family: Raleway;
   font-weight: bold;
+  font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
@@ -39,6 +41,7 @@
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -54,6 +57,7 @@
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -72,6 +76,7 @@
   color: #ffffff;
   font-family: Roboto;
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
@@ -82,7 +87,8 @@
 .section-title {
   color: var(--title-text-color);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
@@ -92,13 +98,16 @@
 .feature-list .title {
   color: var(--title-text-color);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .feature {
   font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -107,6 +116,7 @@
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
@@ -116,6 +126,7 @@
 .section-team {
   background-color: #f5f4fa;
   font-family: Roboto;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -130,6 +141,8 @@
 .footer-address {
   color: #ffffff;
   font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -137,6 +150,8 @@
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
@@ -167,7 +182,8 @@
   background-color: #2196f3;
   color: #ffffff;
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1.9;
   display: flex;
   align-items: center;
@@ -179,6 +195,7 @@
   color: var(--title-text-color);
   font-family: Roboto;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
@@ -187,7 +204,8 @@
 .images {
   color: var(--basic-text-color);
   font-family: Roboto;
-  font-style: normal;
+  font-style: 400;
+  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
@@ -195,7 +213,8 @@
 .images-title {
   color: var(--title-text-color);
   font-family: Roboto;
-  font-weight: bold;
+  font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
