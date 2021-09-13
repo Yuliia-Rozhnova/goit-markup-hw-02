@@ -1,4 +1,4 @@
-.root {
+:root {
   --basic-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -8,46 +8,44 @@
   --text-white-color: #ffffff;
 }
 
-.body {
+body {
   background-color: var(--basic-bg-color);
-  color: var (--basic-text-color);
+  color: var(--basic-text-color);
   font-family: roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
 /* логотип */
-.logo-web {
-  color: var(--accent-color);
+.logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
+
+.logo-web {
+  color: var(--accent-color);
+ 
 .logo-studio {
   color: #000000;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 /* обнуляція списку */
 .list {
   list-style: none;
+  text-decoration: none;
 }
 /* навигація */
 .site-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -55,16 +53,14 @@
 
 .auth-nav .link {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* герой */
@@ -86,83 +82,66 @@
 /* заголовки*/
 .section-title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 700;
+  font-size: inherit;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* функції */
 .feature-list .title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 700;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .feature {
-  font-family: Roboto;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .team-list .title {
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 500;
+  font-size: inherit;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* команда */
 .section-team {
-  background-color: #f5f4fa;
-  font-family: Roboto;
-  font-weight: 400;
+  background-color: var(--secondary-bg-color);
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* футер */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .footer-address {
-  color: #ffffff;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
+  color: var(--basic-bg-color);
+  font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .footer-address:hover,
 .footer-address:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: #2196f3;
+  color: (--accent-color);
 }
 
 /* кнопки */
@@ -174,14 +153,14 @@
 
 .button-secondary:hover,
 .button-secondary:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--basic-bg-color);
 }
 
 .button-primary {
-  background-color: #2196f3;
-  color: #ffffff;
-  font-family: Roboto;
+  background-color: var(--accent-color);
+  color: var(--basic-bg-color);
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -193,7 +172,7 @@
 .button-secondary {
   background-color: var (--secondary-bg-color);
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -203,16 +182,13 @@
 
 .images {
   color: var(--basic-text-color);
-  font-family: Roboto;
-  font-style: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 
 .images-title {
   color: var(--title-text-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
