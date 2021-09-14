@@ -12,12 +12,16 @@ body {
   background-color: var(--basic-bg-color);
   color: var(--basic-text-color);
   font-family: roboto, sans-serif;
+  font-weight: 400;
   font-size: 14px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
 /* логотип */
 .logo {
+  color: var(--accent-color);
+  text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -25,37 +29,32 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-web {
-  color: var(--accent-color);
- 
 .logo-studio {
   color: #000000;
 }
+
+.logo-white {
+  color: var(--text-white-color);
+}
+
 /* обнуляція списку */
 .list {
   list-style: none;
-  text-decoration: none;
 }
-/* навигація */
-.site-nav .link {
+.link {
   color: var(--text-color);
+  text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+/* навигація */
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
 .site-nav .link.current {
   color: var(--accent-color);
-}
-
-.auth-nav .link {
-  color: var(--text-color);
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -83,36 +82,30 @@ body {
 .section-title {
   color: var(--text-color);
   font-weight: 700;
-  font-size: inherit;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
 }
 
 /* функції */
-.feature-list .title {
+.feature-content .title {
   color: var(--text-color);
   font-weight: 700;
   font-size: inherit;
   line-height: 1.14;
-}
-.feature {
-  font-weight: 700;
-  line-height: 1.7;
+  text-transform: uppercase;
 }
 
-.team-list .title {
+/* команда */
+.team-content .title {
   color: var(--text-color);
   font-weight: 500;
-  font-size: inherit;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
 }
-
-/* команда */
-.section-team {
-  background-color: var(--secondary-bg-color);
+.team-content .text {
+  color: var(--text-color);
+  font-weight: inherit;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -121,18 +114,17 @@ body {
 /* футер */
 .footer {
   background-color: var(--bg-color);
+  line-height: 1.7;
 }
 
 .footer-address {
-  color: var(--basic-bg-color);
-  font-style: normal;
-  line-height: 1.7;
+  color: var(--text-white-color);
+  text-decoration: none;
 }
 
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  line-height: 1.7;
+  text-decoration: none;
 }
 .footer-address:hover,
 .footer-address:focus {
@@ -141,7 +133,7 @@ body {
 
 .footer-contacts:hover,
 .footer-contacts:focus {
-  color: (--accent-color);
+  color: var(--accent-color);
 }
 
 /* кнопки */
@@ -149,10 +141,11 @@ body {
 .button {
   background-color: var (--secondary-bg-color);
   color: var(--text-color);
+  cursor: pointer;
 }
 
-.button-secondary:hover,
-.button-secondary:focus {
+.button .secondary:hover,
+.button .secondary:focus {
   background-color: var(--accent-color);
   color: var(--basic-bg-color);
 }
@@ -169,7 +162,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
-.button-secondary {
+.button .secondary {
   background-color: var (--secondary-bg-color);
   color: var(--text-color);
   font-family: inherit;
@@ -177,7 +170,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
+}
+.button .secondary whte {
+  color: var(--text-white-color);
 }
 
 .images {
