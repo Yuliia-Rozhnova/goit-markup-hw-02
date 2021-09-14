@@ -1,6 +1,6 @@
 :root {
   --basic-text-color: #757575;
-  --title-text-color: #212121;
+  --text-color: #212121;
   --accent-color: #2196f3;
   --basic-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
@@ -38,7 +38,7 @@ body {
 }
 /* навигація */
 .site-nav .link {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -52,7 +52,7 @@ body {
 }
 
 .auth-nav .link {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -81,7 +81,7 @@ body {
 
 /* заголовки*/
 .section-title {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-weight: 700;
   font-size: inherit;
   font-size: 36px;
@@ -91,7 +91,7 @@ body {
 
 /* функції */
 .feature-list .title {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-weight: 700;
   font-size: inherit;
   line-height: 1.14;
@@ -102,7 +102,7 @@ body {
 }
 
 .team-list .title {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-weight: 500;
   font-size: inherit;
   font-size: 16px;
@@ -148,7 +148,7 @@ body {
 
 .button {
   background-color: var (--secondary-bg-color);
-  color: var(--title-text-color);
+  color: var(--text-color);
 }
 
 .button-secondary:hover,
@@ -171,7 +171,7 @@ body {
 }
 .button-secondary {
   background-color: var (--secondary-bg-color);
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -187,7 +187,7 @@ body {
 }
 
 .images-title {
-  color: var(--title-text-color);
+  color: var(--text-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
