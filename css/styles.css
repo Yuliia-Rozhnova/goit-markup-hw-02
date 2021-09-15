@@ -14,8 +14,31 @@ body {
   font-family: roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+/* обнуляція списку */
+.list {
+  list-style: none;
+}
+
+/* ссилки */
+.link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* заголовки*/
+
+.section-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 /* логотип */
@@ -25,7 +48,7 @@ body {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -37,17 +60,6 @@ body {
   color: var(--text-white-color);
 }
 
-/* обнуляція списку */
-.list {
-  list-style: none;
-}
-.link {
-  color: var(--text-color);
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 /* навигація */
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -64,30 +76,38 @@ body {
 
 /* герой */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-color);
 }
 
 .hero-title {
-  color: #ffffff;
-  font-family: Roboto;
+  color: var(--text-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.4;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
-/* заголовки*/
-.section-title {
-  color: var(--text-color);
+.button-primary {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
+  font-family: inherit;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: var(--accent-color);
+  color: var(--text-white-color);
 }
 
 /* функції */
-.feature-content .title {
+.feature-menu .title {
   color: var(--text-color);
   font-weight: 700;
   font-size: inherit;
@@ -96,25 +116,25 @@ body {
 }
 
 /* команда */
-.team-content .title {
+.team-menu .title {
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
 }
-.team-content .text {
+.team-menu .text {
   color: var(--text-color);
   font-weight: inherit;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.18;
   text-align: center;
 }
 
 /* футер */
 .footer {
   background-color: var(--bg-color);
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 .footer-address {
@@ -136,49 +156,35 @@ body {
   color: var(--accent-color);
 }
 
-/* кнопки */
+/* портфоліо кнопки*/
 
-.button {
-  background-color: var (--secondary-bg-color);
-  color: var(--text-color);
-  cursor: pointer;
-}
-
-.button .secondary:hover,
-.button .secondary:focus {
-  background-color: var(--accent-color);
-  color: var(--basic-bg-color);
-}
-
-.button-primary {
-  background-color: var(--accent-color);
-  color: var(--basic-bg-color);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-}
-.button .secondary {
-  background-color: var (--secondary-bg-color);
+.button-secondary {
+  background-color: var(--secondary-bg-color);
   color: var(--text-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
+  line-height: 1.62;
+  cursor: pointer;
+  border: none;
 }
-.button .secondary whte {
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--accent-color);
+}
+
+.button-secondary.current {
+  background-color: var(--accent-color);
   color: var(--text-white-color);
 }
+
+/* картинки портфоліо */
 
 .images {
   color: var(--basic-text-color);
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
 }
 
 .images-title {
@@ -189,19 +195,3 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
-/* цвет основного текста color: #757575*/
-
-/* цвет текста заголовков color: #212121*/
-
-/* белый color:FFFFFF*/
-
-/* вторичный цвет фона color:#F5F4FA */
-
-/* акцент 2196F3*/
-
-/* футер фон color: 2F303A */
-
-/* цвет футер тел.color: rgba(255, 255, 255, 0.6)*/
-
-/*  */
