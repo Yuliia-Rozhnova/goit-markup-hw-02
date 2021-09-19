@@ -45,7 +45,7 @@ body {
 .logo {
   color: var(--accent-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -67,6 +67,10 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--basic-text-color);
 }
 
 .auth-nav .link:hover,
@@ -107,7 +111,7 @@ body {
 }
 
 /* функції */
-.feature-menu .title {
+.feature-items .title {
   color: var(--text-color);
   font-weight: 700;
   font-size: inherit;
@@ -116,16 +120,15 @@ body {
 }
 
 /* команда */
-.team-menu .title {
+.team-items .title {
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
-.team-menu .text {
+.team-items .text {
   color: var(--text-color);
-  font-weight: inherit;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -172,6 +175,7 @@ body {
 .button-secondary:hover,
 .button-secondary:focus {
   background-color: var(--accent-color);
+  color: var(--text-white-color);
 }
 
 .button-secondary.current {
@@ -181,13 +185,13 @@ body {
 
 /* картинки портфоліо */
 
-.images {
+.images-items {
   color: var(--basic-text-color);
   font-size: 16px;
   line-height: 1.87;
 }
 
-.images-title {
+.images-items-title {
   color: var(--text-color);
   font-family: inherit;
   font-weight: 700;
